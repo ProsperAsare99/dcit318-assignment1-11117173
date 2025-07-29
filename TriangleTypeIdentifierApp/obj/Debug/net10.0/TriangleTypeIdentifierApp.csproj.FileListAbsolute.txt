@@ -1,0 +1,15 @@
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\bin\Debug\net10.0\TriangleTypeIdentifierApp.exe
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\bin\Debug\net10.0\TriangleTypeIdentifierApp.deps.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\bin\Debug\net10.0\TriangleTypeIdentifierApp.runtimeconfig.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\bin\Debug\net10.0\TriangleTypeIdentifierApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\bin\Debug\net10.0\TriangleTypeIdentifierApp.pdb
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.AssemblyInfoInputs.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.AssemblyInfo.cs
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.csproj.CoreCompileInputs.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.sourcelink.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\refint\TriangleTypeIdentifierApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.pdb
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\TriangleTypeIdentifierApp.genruntimeconfig.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TriangleTypeIdentifierApp\obj\Debug\net10.0\ref\TriangleTypeIdentifierApp.dll
