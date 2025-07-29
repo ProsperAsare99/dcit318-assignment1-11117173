@@ -1,135 +1,89 @@
 using System;
-using System.IO;
 
 namespace GradeCalculatorApp
 {
+    public class GradeEvaluator
+    {
+        public int Grade { get; private set; }
+
+        public GradeEvaluator(int grade)
+        {
+            Grade = grade;
+        }
+
+        public string GetLetterGrade()
+        {
+            if (Grade >= 90)
+                return "A";
+            else if (Grade >= 80)
+                return "B";
+            else if (Grade >= 70)
+                return "C";
+            else if (Grade >= 60)
+                return "D";
+            else
+                return "F";
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Title = "Grade Calculator (OOP - Single File)";
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("=== GRADE CALCULATOR ===\n");
+            bool running = true;
 
-            bool keepRunning = true;
-            while (keepRunning)
+            while (running)
             {
-                try
-                {
-                    string studentName = PromptForName();
-                    int numericGrade = PromptForGrade();
+                DisplayMenu();
+                string choice = Console.ReadLine();
 
-                    Student student = new Student(studentName, numericGrade);
-
-                    DisplayReport(student);
-                    GradeLogger.LogGrade(student);
-                }
-                catch (ArgumentOutOfRangeException ex)
+                switch (choice)
                 {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"Input Error: {ex.Message}\n");
-                }
-                catch (ArgumentException ex)
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Invalid Input: {ex.Message}\n");
+                    case "1":
+                        EvaluateGrade();
+                        break;
+                    case "2":
+                        Console.WriteLine("Exiting GradeCalculatorApp. Goodbye!");
+                        running = false;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
                 }
 
-                keepRunning = PromptToContinue();
+                Console.WriteLine(); // spacing
             }
-
-            Console.ResetColor();
-            Console.WriteLine("\nApplication terminated. Press any key to exit.");
-            Console.ReadKey();
         }
 
-        static string PromptForName()
+        static void DisplayMenu()
         {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("Enter student name: ");
-            return Console.ReadLine().Trim();
+            Console.WriteLine("==== Grade Calculator App ====");
+            Console.WriteLine("1. Evaluate a Grade");
+            Console.WriteLine("2. Exit");
+            Console.Write("Enter your choice: ");
+        }
+
+        static void EvaluateGrade()
+        {
+            int grade = PromptForGrade();
+            GradeEvaluator evaluator = new GradeEvaluator(grade);
+            string result = evaluator.GetLetterGrade();
+
+            Console.WriteLine($"Numeric Grade: {grade} | Letter Grade: {result}");
         }
 
         static int PromptForGrade()
         {
-            Console.Write("Enter numerical grade (0-100): ");
-            if (int.TryParse(Console.ReadLine(), out int grade))
+            int grade;
+            while (true)
             {
-                return GradeValidator.ValidateGrade(grade);
-            }
-            throw new ArgumentException("Grade must be a valid integer.");
-        }
+                Console.Write("Enter a grade between 0 and 100: ");
+                string input = Console.ReadLine();
 
-        static void DisplayReport(Student student)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\n--- Grade Report ---");
-            Console.WriteLine($"Student Name   : {student.Name}");
-            Console.WriteLine($"Numerical Grade: {student.NumericGrade}");
-            Console.WriteLine($"Letter Grade   : {student.LetterGrade}\n");
-        }
+                if (int.TryParse(input, out grade) && grade >= 0 && grade <= 100)
+                    return grade;
 
-        static bool PromptToContinue()
-        {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("Would you like to enter another grade? (Y/N): ");
-            string response = Console.ReadLine().Trim().ToLower();
-            return response == "y" || response == "yes";
-        }
-    }
-
-    class Student
-    {
-        public string Name { get; private set; }
-        public int NumericGrade { get; private set; }
-        public string LetterGrade { get; private set; }
-
-        public Student(string name, int numericGrade)
-        {
-            Name = name;
-            NumericGrade = numericGrade;
-            LetterGrade = GradeCalculator.CalculateLetterGrade(numericGrade);
-        }
-    }
-
-    static class GradeCalculator
-    {
-        public static string CalculateLetterGrade(int grade)
-        {
-            if (grade >= 90) return "A";
-            if (grade >= 80) return "B";
-            if (grade >= 70) return "C";
-            if (grade >= 60) return "D";
-            return "F";
-        }
-    }
-
-    static class GradeValidator
-    {
-        public static int ValidateGrade(int grade)
-        {
-            if (grade < 0 || grade > 100)
-                throw new ArgumentOutOfRangeException(nameof(grade), "Grade must be between 0 and 100.");
-            return grade;
-        }
-    }
-
-    static class GradeLogger
-    {
-        private const string FilePath = "grades.txt";
-
-        public static void LogGrade(Student student)
-        {
-            string entry = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} | {student.Name} | {student.NumericGrade} | {student.LetterGrade}";
-            try
-            {
-                File.AppendAllText(FilePath, entry + Environment.NewLine);
-            }
-            catch (IOException ioEx)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Error writing to log file: {ioEx.Message}");
-                Console.ResetColor();
+                Console.WriteLine("Invalid input. Please enter a number between 0 and 100.");
             }
         }
     }
