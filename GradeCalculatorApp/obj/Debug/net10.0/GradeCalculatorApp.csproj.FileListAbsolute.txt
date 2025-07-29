@@ -1,0 +1,15 @@
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.AssemblyInfoInputs.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.AssemblyInfo.cs
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.sourcelink.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\bin\Debug\net10.0\GradeCalculatorApp.exe
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\bin\Debug\net10.0\GradeCalculatorApp.deps.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\bin\Debug\net10.0\GradeCalculatorApp.runtimeconfig.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\bin\Debug\net10.0\GradeCalculatorApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\bin\Debug\net10.0\GradeCalculatorApp.pdb
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\refint\GradeCalculatorApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.pdb
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\GradeCalculatorApp.genruntimeconfig.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\GradeCalculatorApp\obj\Debug\net10.0\ref\GradeCalculatorApp.dll
