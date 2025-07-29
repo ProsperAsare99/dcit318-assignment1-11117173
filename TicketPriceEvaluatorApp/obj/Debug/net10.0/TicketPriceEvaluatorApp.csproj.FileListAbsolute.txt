@@ -1,0 +1,15 @@
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.AssemblyInfoInputs.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.AssemblyInfo.cs
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.csproj.CoreCompileInputs.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.sourcelink.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\bin\Debug\net10.0\TicketPriceEvaluatorApp.exe
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\bin\Debug\net10.0\TicketPriceEvaluatorApp.deps.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\bin\Debug\net10.0\TicketPriceEvaluatorApp.runtimeconfig.json
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\bin\Debug\net10.0\TicketPriceEvaluatorApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\bin\Debug\net10.0\TicketPriceEvaluatorApp.pdb
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\refint\TicketPriceEvaluatorApp.dll
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.pdb
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\TicketPriceEvaluatorApp.genruntimeconfig.cache
+C:\Users\asare\Desktop\Assessments\Programming II\dcit318-assignment1-11117173\TicketPriceEvaluatorApp\obj\Debug\net10.0\ref\TicketPriceEvaluatorApp.dll
