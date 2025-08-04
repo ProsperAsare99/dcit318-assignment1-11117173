@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asare\\Desktop\\Assessments\\Programming II\\dcit318-assignment1-11117173\\TicketPriceEvaluatorApp\\TicketPriceEvaluatorApp.csproj",
+      "projectUniqueName": "C:\\Users\\asare\\.vscode\\dcit318-assignment1-11117173\\TicketPriceEvaluatorApp\\TicketPriceEvaluatorApp.csproj",
       "projectName": "TicketPriceEvaluatorApp",
-      "projectPath": "C:\\Users\\asare\\Desktop\\Assessments\\Programming II\\dcit318-assignment1-11117173\\TicketPriceEvaluatorApp\\TicketPriceEvaluatorApp.csproj",
+      "projectPath": "C:\\Users\\asare\\.vscode\\dcit318-assignment1-11117173\\TicketPriceEvaluatorApp\\TicketPriceEvaluatorApp.csproj",
       "packagesPath": "C:\\Users\\asare\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asare\\Desktop\\Assessments\\Programming II\\dcit318-assignment1-11117173\\TicketPriceEvaluatorApp\\obj\\",
+      "outputPath": "C:\\Users\\asare\\.vscode\\dcit318-assignment1-11117173\\TicketPriceEvaluatorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asare\\AppData\\Roaming\\NuGet\\NuGet.Config"
